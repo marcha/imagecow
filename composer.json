@@ -24,5 +24,6 @@
 		"psr-4": {
 			"Imagecow\\": "src"
 		}
-	}
+	},
+  	"minimum-stability": "dev"
 }
