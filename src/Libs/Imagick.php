@@ -157,7 +157,7 @@ class Imagick extends BaseLib implements LibInterface
     {
         $format = strtolower($this->image->getImageFormat());
 
-        if (in_array($format, array('jpeg', 'jpg', 'gif', 'png','bmp'), true)) {
+        if (in_array($format, array('jpeg', 'jpg', 'gif', 'png', 'bmp'), true)) {
             return "image/$format";
         }
     }
